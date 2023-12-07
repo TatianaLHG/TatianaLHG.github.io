@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">    
+    <head>
+        <meta charset="UTF-8">
+        <title>CONNECT</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        /* Estilos CSS personalizados */
+        body {
+            font-family: Tahoma, sans-serif;
+            margin: 10;
+            padding: 10;
+        }
+        header {
+            position: relative;
+        }
+        #botones {
+            position: absolute;
+            top: 200px;
+            right: 60px;
+        }
+        /* Estilo para las imágenes pequeñas */
+        .imagen-pequena {
+            width: 80px;
+            height: 80px;
+            float: left;
+            margin: 10px;
+        }
+        /* Estilo para la imagen superior pequeña centrada */
+        .imagen-superior-pequena {
+            width: 180px;
+            height: 180px;
+            margin: 10px auto;
+            display: block;
+        }
+        #buscador {
+            float: left;
+            width: 30%;
+            margin: 13px;
+        }
+        #textoDerecha {
+            float: right;
+            width: 17%;
+            margin: 3px;
+        }
+        #textoIzquierda {
+            float: left;
+            width: 45%;
+            margin: 40px;
+            font-size: 20px;
+            letter-spacing: 2px;
+            line-height: 2;
+        }
+        /* Estilo para la imagen mediana en el lado derecho */
+        .imagen-mediana {
+            width: 300px;
+            height: auto;
+            float: right;
+            margin: 100px;
+        }
+        /* Estilo para las líneas horizontales */
+        .separador {
+            width: 100%;
+            border-top: 1px solid #000000;
+            margin-top: 50px;
+        }
+        /* Estilo para el contenedor de texto y título */
+        .texto-titulo-container {
+            clear: both;
+        }
+        /* Estilo para el título */
+        .titulo {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            margin: 40px;
+        }
+        /* Estilo para la imagen mediana en el lado derecho */
+        .imagen-mediana-dos {
+            width: 200px;
+            height: auto;
+            float: right;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Botones en la parte superior derecha a la altura de 10px -->
+        <div id="botones">
+            <button onclick="mostrarPresentacion()">Presentación</button>
+            <button onclick="mostrarInformacion()">Información</button>
+            <button onclick="mostrarProyectos()">Proyectos</button>
+        </div>
+        <!-- Imagen pequeña en la parte superior izquierda -->
+        <img class="imagen-pequena" src="logo.png" alt="Imagen Izquierda">
+    </header>
+
+    <!-- Línea horizontal -->
+    <div class="separador"></div>
+
+    <!-- Imagen superior pequeña centrada a la misma altura que la imagen de la izquierda -->
+    <div style="text-align: center;">
+        <img class="imagen-superior-pequena" src="logo.png" alt="Imagen Superior">
+    </div>
+
+    <!-- Línea horizontal -->
+    <div class="separador"></div>
+
+    <!-- Buscador en el lado izquierdo -->
+    <div id="buscador">
+        <input type="text" placeholder="Buscar...">
+    </div>
+
+    <!-- Texto en el lado derecho -->
+    <div id="textoDerecha">
+        <p>Welcome to the Shopping time.</p>
+    </div>
+
+    <!-- Imagen mediana en el lado derecho y texto en el lado izquierdo colindante a la imagen mediana -->
+    <div class="imagen-mediana">
+        <img src="foto.jpg" alt="Imagen Mediana">
+    </div>
+    <div id="textoIzquierda">
+        <p>Bienvenido a mi página! aquí encontraras actualizaciones constantes de los precios y productos que iré ofreciendo, todo referente al mundo del 2d y 3d, te dejare los enlaces directos a cada producto para que no te enredes con el proceso de compra.
+            ¡Un gusto, soy Tatiana y estoy aquí para enseñarte por medio de mi proceso el diseño de tus propias ilustraciones 2d y como pasarlas a 3d!
+            ¡Buenas! Soy Tatiana, pero me puedes decir Tatianic (Tatiana+Titanic). Soy ilustradora 2d y también escultora 3D, me encanta todo lo relacionado al arte y la música, la magia de poder crear tus propios mundos y personajes, por esto mismo me puedes ver diseñando desde 0 un personaje.
+            Me gusta compartir tutoriales por los que he ido aprendiendo, tips que he ido obteniendo en mi aprendizaje y compartir esta magia de crear con ustedes. Suelo subir de manera breve mis procesos por medio de Tiktok.</p>
+        </div>
+     
+    <!-- Línea horizontal -->
+    <div class="separador"></div>
+
+    <!-- Imagen mediana en el lado derecho y texto en el lado izquierdo colindante a la imagen mediana -->
+    <div class="imagen-mediana-dos">
+        <img src="logo.jpg" alt="Imagen Mediana">
+    </div>
+    <div class="texto-titulo-container">
+        <div class="titulo">Título de la Opción</div>
+        <div id="textoIzquierda">
+            <p>Aquí está el texto en el lado izquierdo con un tamaño de fuente más grande, espaciado entre caracteres y un interlineado mayor.</p>
+        </div>
+    </div>
+
+    <!-- Agrega más contenido y secciones según sea necesario -->
+
+    <script>
+        function mostrarPresentacion() {
+            // Implementa el comportamiento para mostrar la sección de Presentación aquí.
+        }
+
+        function mostrarInformacion() {
+            // Implementa el comportamiento para mostrar la sección de Información aquí.
+        }
+
+        function mostrarProyectos() {
+            // Implementa el comportamiento para mostrar la sección de Proyectos aquí.
+        }
+    </script>
+</body>
+</html>
